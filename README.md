@@ -7,6 +7,3 @@ The aim of this thesis is to address this problem through the design and
 subsequent evaluation of a technique that seeks to improve the generalization capacity of the models. Specifically, the idea is based on the creation of segmented images that show only the most relevant areas for glaucoma diagnosis. These simplified images will be used to train the models, with the hypothesis that by eliminating irrelevant information from the image and using only that which is of interest for diagnostic analysis, it is possible to obtain a model capable of improving or maintaining the results in the face of changes in the domain.
 
 For all this, three pre-trained convolutional neural network architectures have been used, such as VGG19, ResNet50 and InceptionV3, which have been trained with the same sets of original retinographies and simplified retinographies. Experiments have been performed comparing the performance of these networks with each other, and evaluating their generalization ability when classify different sets of retinographies from those used in their training.
-
-
-link to the best models: https://drive.google.com/drive/folders/1djpfo6z39vQOCnbPQ0bPC9Q8pAsUayIZ?usp=sharing
